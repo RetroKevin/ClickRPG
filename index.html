@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Click RPG v0.37</title>
+  </head>
+  <body>
+    <p class="Welcome">click on the enemy to defeat them</p>
+    <img
+      id="background"
+      src="/img/Grassland.png"
+      alt="background"
+      class="background"
+    />
+    <p class="battleNumber">1</p>
+    <main class="UI">
+      <main class="potions">
+        <img
+          id="healthPotion"
+          src="/img/HealthPotion.png"
+          alt="healthPotion"
+          class="healthPotion"
+        />
+        <img
+          id="manaPotion"
+          src="/img/ManaPotion.png"
+          alt="manaPotion"
+          class="manaPotion"
+        />
+        <p class="hpPotionCounter">0</p>
+        <p class="manaPotionCounter">0</p>
+      </main>
+      <main class="skillBlock">
+        <img id="skill" src="/img/Attack.png" alt="skill" class="skill" />
+        <main class="skillProgress">
+          <div class="skillBackground"><div class="skillBar"></div></div>
+        </main>
+      </main>
+      <img
+        id="teleport"
+        src="/img/Teleport.png"
+        alt="teleport"
+        class="teleport"
+      />
+      <p class="gold">0</p>
+      <div class="expBarBackground"><div class="expBar"></div></div>
+      <div class="playerHealthBarBackground">
+        <div class="playerHealthBar"></div>
+      </div>
+      <div class="manaBarBackground"><div class="manaBar"></div></div>
+      <main class="enemyBlock">
+        <img id="enemy" src="/img/Gnome.png" alt="enemy" class="enemy" />
+        <p class="battleMonster">1/10</p>
+        <div class="healthBarBackground"><div class="healthBar"></div></div>
+        <div class="atkBarBackground"><div class="atkBar"></div></div>
+      </main>
+      <p class="lvl">Lvl: 1</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
